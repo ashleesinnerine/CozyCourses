@@ -1,0 +1,2 @@
+# Cozy Courses Website
+A course management website with features such as assignment tracking, an animated mascot, motivational quotes, a study corner with customizable music settings, and a study buddy resource page implemented.

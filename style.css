@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-color: #bdd9cd;
+    color: #042630;
+  }
+  .logo{
+    align-self: center;
+  }
+  
+  #ccLogo{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .sticky-bar{
+    background-color: #042630;
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .quote{
+    color: white;
+    flex:1;
+    text-align:center;
+    margin-left: 15px;
+    margin-right:15px;
+  }
+  
+  .new-quote-button{
+    padding: 3px 10px;  
+    margin-right:15px;
+    background-color: #86b9b0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .new-quote-button:hover{
+    background-color: #4c7273;
+  }
+  
+  .hero{
+    padding: 20px;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .hero > div{
+    margin:10px;
+    padding: 20px;
+  }
+  
+  .cozy{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar{
+    background-color: white;
+  }
+  
+  .navbar a {
+    color:#042630;
+    text-decoration: none;
+    display: block;
+    padding: 2px 15px;
+    text-align: center;
+  }
+  
+  .navbar a:hover{
+    background-color: #4c7273;
+    color: white;
+  }
+  
+  .navbar a.active{
+    background-color: #042630;
+    color: white;
+  }
+  
+  .main{
+    margin:20px;
+  }
+  
+  #add-course{
+    text-align:center;
+  }
+  
+  .add-course-button{
+    text-decoration: underline;
+    color:#042630;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .add-course-button:hover{
+    background-color: #042630;
+    color: white;
+    
+  }
+  
+  .form{
+    display:none;
+  }
+  
+  
+  
+  
+  
+  
